@@ -3,7 +3,8 @@ package haberdashserver
 import(
 	"context"
 	"math/rand"
-	pb "github.com/fly0c8/rpc/haberdasher"
+	"github.com/twitchtv/twirp"
+	pb "github.com/fly0c8/twirp-example/rpc/haberdasher"
 )
 
 type Server struct {}
